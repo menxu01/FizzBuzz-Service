@@ -3,6 +3,10 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * the program Application implements FizzBuzz as service
+ * @author meng
+ */
 @ComponentScan
 @Configuration
 @EnableAutoConfiguration
