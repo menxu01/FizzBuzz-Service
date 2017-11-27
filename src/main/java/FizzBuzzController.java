@@ -7,6 +7,6 @@ public class FizzBuzzController {
 	
 	@RequestMapping("/fizzbuzz/{upperBound}")
 	public String fizzBuzz(@PathVariable("upperBound") int upperBound) {
-		return FizzBuzz.getResult(upperBound).toString();
+		return FizzBuzz.getResult(upperBound).toString().replaceAll("=", ": ");
 	}
 }

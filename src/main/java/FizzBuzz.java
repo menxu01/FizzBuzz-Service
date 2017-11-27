@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
  * For number that multiples of three, use "Fizz"
  * For number that multiples of five, use "Buzz"
  * For numbers that multiples of both, use "FizzBuzz"
- * Group them by Fizz/Buzz/FizzBuzz
+ * Group numbers by Fizz/Buzz/FizzBuzz
  * 
  * @author meng
  */
@@ -37,7 +37,7 @@ public class FizzBuzz {
 					} else if (i % 5 == 0) {
 						return new FizzBuzzItem(i, "\"Buzz\"");
 					} else {
-						return new FizzBuzzItem(i, "NAi");
+						return new FizzBuzzItem(i, "NA");
 					}
 				}).collect(Collectors.toCollection(ArrayList::new)));
 		
