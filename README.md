@@ -15,7 +15,7 @@ This project is a FizzBuzz web service. It will print a range of numbers grouped
 Open the web browser and enter http://localhost:8080/fizzbuzz/{upperbound}, e.x. http://localhost:8080/fizzbuzz/30
 * Sample output: {"Buzz": [5, 10, 20, 25], "FizzBuzz": [15, 30], "Fizz": [3, 6, 9, 12, 18, 21, 24, 27]}
 
-## Authors
+## Author
 
 * **Meng Xu**
 
